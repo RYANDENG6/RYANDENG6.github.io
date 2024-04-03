@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 20px 0 20px; 
+    color: #333;
+    background-color: #cae4fc;
+}
+
+.contact-info {
+    font-size: 14px; 
+}
+
+
+header {
+    background-color: #3592f6;
+    color: #ffffff;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px;
+    font-size: 55px;
+}
+
+
+
+.header-content {
+    text-align: center;
+    flex: 1;
+    
+}
+
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.about-image {
+    width: 260px; 
+    height: auto;
+    float: right; 
+    margin: -40px 90px 10px 10px; 
+}
+
+.clearfix p {
+    text-align: justify;
+    margin: 10px 0;
+    padding: 0 500px 0 0; 
+}
+
+
+header h1 {
+    font-family: 'Rubik Scribble', cursive;
+    margin: 0;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
+
+section p {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; 
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-gallery img {
+    width: 30%; 
+    height: auto;
+}
